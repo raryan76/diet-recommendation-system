@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Profile</h1>
+  <pre id="profile"></pre>
+  <form id="updateProfileForm">
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age"><br><br>
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+    </select><br><br>
+    <label for="weight">Weight:</label>
+    <input type="number" id="weight" name="weight"><br><br>
+    <label for="height">Height:</label>
+    <input type="number" id="height" name="height"><br><br>
+    <label for="dietaryPreferences">Dietary Preferences:</label>
+    <input type="text" id="dietaryPreferences" name="dietaryPreferences"><br><br>
+    <label for="allergies">Allergies:</label>
+    <input type="text" id="allergies" name="allergies"><br><br>
+    <label for="healthGoals">Health Goals:</label>
+    <input type="text" id="healthGoals" name="healthGoals"><br><br>
+    <button type="submit">Update Profile</button>
+  </form>
+  <script src="scripts.js"></script>
+</body>
+</html>

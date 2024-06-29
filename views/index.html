@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diet Recommendation System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Diet Recommendation System</h1>
+  </header>
+  <main>
+    <section id="profileSection">
+      <h2>User Profile</h2>
+      <form id="updateProfileForm">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" required>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <label for="weight">Weight (kg):</label>
+        <input type="text" id="weight" name="weight" required>
+        <label for="height">Height (cm):</label>
+        <input type="text" id="height" name="height" required>
+        <label for="dietaryPreferences">Dietary Preferences (comma-separated):</label>
+        <input type="text" id="dietaryPreferences" name="dietaryPreferences">
+        <label for="allergies">Allergies (comma-separated):</label>
+        <input type="text" id="allergies" name="allergies">
+        <label for="healthGoals">Health Goals (comma-separated):</label>
+        <input type="text" id="healthGoals" name="healthGoals">
+        <button type="submit">Update Profile</button>
+      </form>
+    </section>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
